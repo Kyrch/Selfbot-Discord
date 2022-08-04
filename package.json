@@ -1,0 +1,25 @@
+{
+  "name": "selfbot-discord-v13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.4.10",
+    "dotenv": "^16.0.1"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "./token.json"
+    ],
+    "targets": [
+      "node16"
+    ]
+  }
+}
